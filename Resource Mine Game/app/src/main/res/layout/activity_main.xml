@@ -1,0 +1,200 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water: 0"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvWaterLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/water_mine_level_1"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvWaterStorage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Storage: 1000"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvWaterGeneration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generating: 5/s"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnUpgradeWaterMine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade Water Mine" />
+
+    <TextView
+        android:id="@+id/tvIron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iron: 0"
+        android:textColor="#B0BEC5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvIronLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iron Mine Level: 1"
+        android:textColor="#B0BEC5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvIronStorage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Storage: 1000"
+        android:textSize="20sp"
+        android:textColor="#B0BEC5" />
+
+    <TextView
+        android:id="@+id/tvIronGeneration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generating: 5/s"
+        android:textColor="#B0BEC5"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnUpgradeIronMine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade Iron Mine" />
+
+    <TextView
+        android:id="@+id/tvWood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wood: 0"
+        android:textColor="#5510"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvWoodLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wood Mine Level: 1"
+        android:textColor="#5510"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvWoodStorage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Storage: 1000"
+        android:textColor="#5510"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvWoodGeneration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generating: 5/s"
+        android:textColor="#5510"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnUpgradeWoodMine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade Wood Mine" />
+
+    <TextView
+        android:id="@+id/tvGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gold: 0"
+        android:textSize="24sp"
+        android:textColor="#FFD700" />
+
+    <TextView
+        android:id="@+id/tvGoldLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gold Mine Level: 1"
+        android:textColor="#FFD700"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvGoldStorage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Storage: 1000"
+        android:textSize="20sp"
+        android:textColor="#FFD700" />
+
+    <TextView
+        android:id="@+id/tvGoldGeneration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generating: 5/s"
+        android:textColor="#FFD700"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnUpgradeGoldMine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade Gold Mine" />
+
+    <TextView
+        android:id="@+id/tvHelium3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helium-3: 0"
+        android:textSize="24sp"
+        android:textColor="#6D4C41" />
+
+    <TextView
+        android:id="@+id/tvHelium3Level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helium-3 Mine Level: 1"
+        android:textColor="#6D4C41"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvHelium3Storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Storage: 1000"
+        android:textSize="20sp"
+        android:textColor="#6D4C41" />
+
+    <TextView
+        android:id="@+id/tvHelium3Generation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generating: 5/s"
+        android:textSize="20sp"
+        android:textColor="#6D4C41" />
+
+    <Button
+        android:id="@+id/btnUpgradeHelium3Mine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade Helium-3 Mine" />
+</LinearLayout>
